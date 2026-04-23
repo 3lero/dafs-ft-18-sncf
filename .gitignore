@@ -1,0 +1,53 @@
+# ========================
+# Environnement Python
+# ========================
+.venv/
+venv/
+env/
+
+# ========================
+# Variables sensibles
+# ========================
+.env
+
+# ========================
+# Cache Python
+# ========================
+__pycache__/
+*.py[cod]
+
+# ========================
+# Jupyter
+# ========================
+.ipynb_checkpoints/
+
+# ========================
+# Cache Open-Meteo / requests
+# ========================
+.cache/
+*.sqlite
+*.sqlite-journal
+
+# ========================
+# Données générées
+# ========================
+data/batches/
+data/processed/
+data/weather_batches/
+
+# Option recommandé (fortement)
+data/raw/
+
+# Fichiers Excel
+*.xlsx
+
+# ========================
+# Fichiers système
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Logs
+# ========================
+*.log
